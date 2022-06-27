@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/scotties/%20/static/css/main.073c9b0a.css",
-    "main.js": "/scotties/%20/static/js/main.761d458d.js",
-    "static/js/787.141bb747.chunk.js": "/scotties/%20/static/js/787.141bb747.chunk.js",
-    "static/media/logo.svg": "/scotties/%20/static/media/logo.bdd9f8f9d8e652aba06059891198e926.svg",
-    "index.html": "/scotties/%20/index.html",
-    "main.073c9b0a.css.map": "/scotties/%20/static/css/main.073c9b0a.css.map",
-    "main.761d458d.js.map": "/scotties/%20/static/js/main.761d458d.js.map",
-    "787.141bb747.chunk.js.map": "/scotties/%20/static/js/787.141bb747.chunk.js.map"
+    "main.css": "/%20/static/css/main.073c9b0a.css",
+    "main.js": "/%20/static/js/main.93b95d76.js",
+    "static/js/787.141bb747.chunk.js": "/%20/static/js/787.141bb747.chunk.js",
+    "static/media/logo.svg": "/%20/static/media/logo.bdd9f8f9d8e652aba06059891198e926.svg",
+    "index.html": "/%20/index.html",
+    "main.073c9b0a.css.map": "/%20/static/css/main.073c9b0a.css.map",
+    "main.93b95d76.js.map": "/%20/static/js/main.93b95d76.js.map",
+    "787.141bb747.chunk.js.map": "/%20/static/js/787.141bb747.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.761d458d.js"
+    "static/js/main.93b95d76.js"
   ]
 }
