@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/paikjay.github.io/scotties/static/css/main.073c9b0a.css",
-    "main.js": "/paikjay.github.io/scotties/static/js/main.7fa1e730.js",
-    "static/js/787.141bb747.chunk.js": "/paikjay.github.io/scotties/static/js/787.141bb747.chunk.js",
-    "static/media/logo.svg": "/paikjay.github.io/scotties/static/media/logo.bdd9f8f9d8e652aba06059891198e926.svg",
-    "index.html": "/paikjay.github.io/scotties/index.html",
-    "main.073c9b0a.css.map": "/paikjay.github.io/scotties/static/css/main.073c9b0a.css.map",
-    "main.7fa1e730.js.map": "/paikjay.github.io/scotties/static/js/main.7fa1e730.js.map",
-    "787.141bb747.chunk.js.map": "/paikjay.github.io/scotties/static/js/787.141bb747.chunk.js.map"
+    "main.css": "/scotties/static/css/main.073c9b0a.css",
+    "main.js": "/scotties/static/js/main.0fc49bda.js",
+    "static/js/787.141bb747.chunk.js": "/scotties/static/js/787.141bb747.chunk.js",
+    "static/media/logo.svg": "/scotties/static/media/logo.bdd9f8f9d8e652aba06059891198e926.svg",
+    "index.html": "/scotties/index.html",
+    "main.073c9b0a.css.map": "/scotties/static/css/main.073c9b0a.css.map",
+    "main.0fc49bda.js.map": "/scotties/static/js/main.0fc49bda.js.map",
+    "787.141bb747.chunk.js.map": "/scotties/static/js/787.141bb747.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.7fa1e730.js"
+    "static/js/main.0fc49bda.js"
   ]
 }
