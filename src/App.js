@@ -11,14 +11,14 @@ export default class App extends Component {
  
   render() {
     return (
-      <Router>
+      <Router basename="https://paikjay.github.io/scotties/"> 
       <div className="App">
         <Navigation />
 
         <Switch>
 
-          <Route path="/scotties/contact"  component={() => <ContactPage /> } />
-          <Route path="/scotties/about" component={() => <AboutPage />} />
+          <Route path="/contact"  component={() => <ContactPage /> } />
+          <Route path="/about" component={() => <AboutPage />} />
           <Route component={Error} />
    
         </Switch>

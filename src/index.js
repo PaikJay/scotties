@@ -8,7 +8,7 @@ import App from './App';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <HashRouter>
+    <HashRouter basename="https://paikjay.github.io/scotties/">
     <App />
     </HashRouter>
   </React.StrictMode>
