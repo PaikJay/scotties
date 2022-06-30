@@ -17,8 +17,8 @@ export default class App extends Component {
 
         <Switch>
 
-          <Route path="/contact"  component={() => <ContactPage /> } />
-          <Route path="/about" component={() => <AboutPage />} />
+          <Route path="/scotties/contact"  component={() => <ContactPage /> } />
+          <Route path="/scotties/about" component={() => <AboutPage />} />
           <Route component={Error} />
    
         </Switch>
