@@ -11,7 +11,7 @@ export default class App extends Component {
  
   render() {
     return (
-      <Router basename="https://paikjay.github.io/scotties/"> 
+      <Router basename="/scotties"> 
       <div className="App">
         <Navigation />
 
