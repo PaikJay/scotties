@@ -1,16 +1,14 @@
 {
   "files": {
-    "main.css": "/scotties/static/css/main.073c9b0a.css",
-    "main.js": "/scotties/static/js/main.dc703102.js",
-    "static/js/787.141bb747.chunk.js": "/scotties/static/js/787.141bb747.chunk.js",
+    "main.css": "/scotties/static/css/main.0e2a52a8.css",
+    "main.js": "/scotties/static/js/main.22a268db.js",
     "static/media/logo.svg": "/scotties/static/media/logo.bdd9f8f9d8e652aba06059891198e926.svg",
     "index.html": "/scotties/index.html",
-    "main.073c9b0a.css.map": "/scotties/static/css/main.073c9b0a.css.map",
-    "main.dc703102.js.map": "/scotties/static/js/main.dc703102.js.map",
-    "787.141bb747.chunk.js.map": "/scotties/static/js/787.141bb747.chunk.js.map"
+    "main.0e2a52a8.css.map": "/scotties/static/css/main.0e2a52a8.css.map",
+    "main.22a268db.js.map": "/scotties/static/js/main.22a268db.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.dc703102.js"
+    "static/css/main.0e2a52a8.css",
+    "static/js/main.22a268db.js"
   ]
 }
