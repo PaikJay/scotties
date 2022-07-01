@@ -11,22 +11,22 @@ export const Navigation = () => {
         <ul className="navbar-nav ml-auto">
                   <li className="nav-item">
                     <a className="nav-link tm-nav-link" href="/">
-                      Home
+                    <h4 className="text-black h4">Home</h4>
                     </a>
                   </li>
                   <li className="nav-item">
                     <a className="nav-link tm-nav-link" href="/about">
-                      About
+                    <h4 className="text-black h4">About</h4>
                     </a>
                   </li>
                   <li className="nav-item">
                     <a className="nav-link tm-nav-link" href="/blog">
-                      Blog
+                    <h4 className="text-black h4">Blog</h4>
                     </a>
                   </li>
                   <li className="nav-item">
                     <a className="nav-link tm-nav-link" href="/contact">
-                      Contact
+                    <h4 className="text-black h4">Contact</h4>
                     </a>
                   </li>
                  
