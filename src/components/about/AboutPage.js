@@ -1,5 +1,5 @@
 import React from 'react'
-
+import './about_page.css'
 const AboutPage = () => {
   return (
     <div>
@@ -11,7 +11,7 @@ const AboutPage = () => {
           <div className="mx-auto tm-gallery-container tm-gallery-container-2">
             <div className="tm-testimonials-carousel">
               <figure className="tm-testimonial-item tm-image">
-                <img src="img/testimonial-img-02.jpeg" alt="testimonial" className="img-fluid mx-auto " />
+                <img src="img/testimonial-img-02.jpg" alt="testimonial" className="img-fluid mx-auto " />
                 <blockquote></blockquote>
                 <figcaption></figcaption>
               </figure>
