@@ -25,7 +25,7 @@ export const Navigation = () => {
                     </a>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link tm-nav-link" href="/Contact">
+                    <a className="nav-link tm-nav-link" href="/contact">
                       Contact
                     </a>
                   </li>
