@@ -1,14 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.0e2a52a8.css",
-    "main.js": "/static/js/main.351b3a2f.js",
+    "main.css": "/static/css/main.e3a0c02c.css",
+    "main.js": "/static/js/main.578d2d85.js",
     "static/media/logo.svg": "/static/media/logo.bdd9f8f9d8e652aba06059891198e926.svg",
+    "static/media/infinite-loop-02-mobile.jpg": "/static/media/infinite-loop-02-mobile.3e5c621cdb387e1809aa.jpg",
     "index.html": "/index.html",
-    "main.0e2a52a8.css.map": "/static/css/main.0e2a52a8.css.map",
-    "main.351b3a2f.js.map": "/static/js/main.351b3a2f.js.map"
+    "main.e3a0c02c.css.map": "/static/css/main.e3a0c02c.css.map",
+    "main.578d2d85.js.map": "/static/js/main.578d2d85.js.map"
   },
   "entrypoints": [
-    "static/css/main.0e2a52a8.css",
-    "static/js/main.351b3a2f.js"
+    "static/css/main.e3a0c02c.css",
+    "static/js/main.578d2d85.js"
   ]
 }
