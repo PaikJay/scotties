@@ -8,29 +8,19 @@ export const Navigation = () => {
     <div className="pos-f-t">
       <div className="collapse" id="navbarToggleExternalContent">
         <div className="bg-light p-4">
-        <ul className="navbar-nav ml-auto">
-                  <li className="nav-item">
-                    <a className="nav-link tm-nav-link" href="/">
-                    <h4 className="text-black h4">Home</h4>
-                    </a>
-                  </li>
-                  <li className="nav-item">
-                    <a className="nav-link tm-nav-link" href="/about">
-                    <h4 className="text-black h4">About</h4>
-                    </a>
-                  </li>
-                  <li className="nav-item">
-                    <a className="nav-link tm-nav-link" href="/blog">
-                    <h4 className="text-black h4">Blog</h4>
-                    </a>
-                  </li>
-                  <li className="nav-item">
-                    <a className="nav-link tm-nav-link" href="/contact">
-                    <h4 className="text-black h4">Contact</h4>
-                    </a>
-                  </li>
-                 
-                </ul>
+        <Link to={"/"} className="nav-link">
+             <h4 className="text-black h4">Home</h4>
+             <span className="sr-only">(current)</span>
+           </Link>
+           <Link to={"/about"} className="nav-link">
+             <h4 className="text-black h4">About</h4>
+           </Link>
+           <Link to={"/blog"} className="nav-link" >
+             <h4 className="text-black h4">Blog</h4>
+           </Link>
+           <Link to={"/contact"} className="nav-link">
+             <h4 className="text-black h4">Contact</h4>
+           </Link>
         </div>
       </div>
       <nav className="navbar navbar-light bg-light">
