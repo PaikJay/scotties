@@ -5,6 +5,7 @@ import { ContactPage } from "./components/contact/ContactPage";
 import Error from "./Error";
 import { Navigation } from "./common/Nav/Navigation";
 import AboutPage from "./components/about/AboutPage";
+import Home, { ConnectedDashboard } from "./components/home/Home";
 import React, { Component } from "react";
 
 export default class App extends Component {
@@ -16,6 +17,7 @@ export default class App extends Component {
         <Navigation />
 
         <Switch>
+        <Route exact path="/" component={Home} />  
         <Route path="/about" exact component={AboutPage} />
         <Route path="/contact" exact component={ContactPage} />
         <Route component={Error} />
