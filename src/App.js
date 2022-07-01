@@ -16,8 +16,8 @@ export default class App extends Component {
         <Navigation />
 
         <Switch>
-        <Route path="/scotties/about" exact component={AboutPage} />
-        <Route path="/scotties/contact" exact component={ContactPage} />
+        <Route path="/about" exact component={AboutPage} />
+        <Route path="/contact" exact component={ContactPage} />
         <Route component={Error} />
    
         </Switch>

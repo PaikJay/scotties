@@ -8,23 +8,33 @@ export const Navigation = () => {
     <div className="pos-f-t">
       <div className="collapse" id="navbarToggleExternalContent">
         <div className="bg-light p-4">
-          <Link to={"/scotties"} className="nav-link">
-            <h4 className="text-black h4">Home</h4>
-            <span className="sr-only">(current)</span>
-          </Link>
-          <Link to={"/scotties/about"} className="nav-link">
-            <h4 className="text-black h4">About</h4>
-          </Link>
-          <Link to={"/scotties/blog"} className="nav-link" >
-            <h4 className="text-black h4">Blog</h4>
-          </Link>
-          <Link to={"/scotties/contact"} className="nav-link">
-            <h4 className="text-black h4">Contact</h4>
-          </Link>
+        <ul className="navbar-nav ml-auto">
+                  <li className="nav-item">
+                    <a className="nav-link tm-nav-link" href="/">
+                      Home
+                    </a>
+                  </li>
+                  <li className="nav-item">
+                    <a className="nav-link tm-nav-link" href="/about">
+                      About
+                    </a>
+                  </li>
+                  <li className="nav-item">
+                    <a className="nav-link tm-nav-link" href="/blog">
+                      Blog
+                    </a>
+                  </li>
+                  <li className="nav-item">
+                    <a className="nav-link tm-nav-link" href="/Contact">
+                      Contact
+                    </a>
+                  </li>
+                 
+                </ul>
         </div>
       </div>
       <nav className="navbar navbar-light bg-light">
-        <a className="navbar-brand" href="http://paikjay.github.io/scotties/">
+        <a className="navbar-brand" href="/">
           <img
             src={logo}
             className="d-inline-block align-top"
