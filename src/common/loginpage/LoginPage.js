@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { connect, useSelector } from "react-redux";
 import { Link } from "react-router-dom";
-import * as userActions  from "../redux/actions/userActions";
+import * as userActions  from "../../redux/actions/userActions";
 
 export const LoginPage = (authenticateUser, authenticated, props) => {
   const users = useSelector(state => state.users)
@@ -72,7 +72,7 @@ const mapDispatchToProps = (dispatch) => {
         let password = e.target[`password`].value;
       console.info("login new user", username, password);
      dispatch(userActions.requestAuthenticateUser(username,password));
-    // dispatch(userActions.loadUsers())
+    dispatch(userActions.loadUsers())
     }
   }
 };

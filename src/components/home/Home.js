@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { connect } from "react-redux";
+import './home.css'
 export class Home extends Component {
   render() {
     return (
@@ -9,9 +10,8 @@ export class Home extends Component {
             <div className="text-center col-12">
               <div className="mx-auto tm-gallery-container">
                 <div className="grid tm-gallery">
-                  {this.props.tasks.map((task) => {
-                    return (
-                        <div className="card" key={task.id}>
+                 
+                        <div className="card">
                       <div className="row">
                         <div className="col-12">
                           <div className="mx-auto tm-gallery-container">
@@ -22,9 +22,9 @@ export class Home extends Component {
                                   alt="yoga_warrior"
                                   className="img-fluid card-img-top"
                                 />
-                                <h2 className="text-black card-header" key={task.owner}>
-                                  {task.name}
-                                  <span className="card-body">{task.group}</span>
+                                <h2 className="text-black card-header">
+                                
+                                  <span className="card-body"></span>
                                 </h2>
                               </a>
                             </div>
@@ -32,8 +32,7 @@ export class Home extends Component {
                         </div>
                       </div>
                       </div>
-                    );
-                  })}
+                  
                 </div>
               </div>
             </div>
