@@ -43,7 +43,7 @@ export class Home extends Component {
   }
 }
 
-const mapStateToProps = (state) => ({ tasks: state.rootReducer.tasks });
+const mapStateToProps = (state) => ({ users: state.rootReducer.users });
 
 const mapDispatchToProps = {};
 

@@ -5,7 +5,7 @@ import { applyMiddleware } from 'redux'
 import rootReducer from "./reducers/index";
 
 
-export const store = configureStore({
+const store = configureStore({
     reducer: {
      rootReducer
     }
